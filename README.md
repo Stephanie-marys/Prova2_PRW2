@@ -1,13 +1,39 @@
-# CineLog — Catálogo de Filmes 🎬
+# 🎬 CineLog — Catálogo de Filmes
 
-Projeto React com CRUD completo para catálogo de filmes. Desenvolvido para a Avaliação 02.
+Aplicação web desenvolvida em React para gerenciamento de um catálogo de filmes, com operações completas de **CRUD** (Create, Read, Update, Delete).
 
-## Tecnologias
-- React 18
-- React Router DOM v6
-- Axios
+Projeto desenvolvido como **Avaliação 02** da disciplina de Desenvolvimento Web — IFSP Campus São Carlos.
 
-## Como rodar
+---
+
+## 🚀 Tecnologias utilizadas
+
+- [React 18](https://reactjs.org/)
+- [React Router DOM v6](https://reactrouter.com/) — navegação entre páginas
+- [Axios](https://axios-http.com/) — requisições HTTP
+- [MockAPI](https://mockapi.io/) — servidor de API simulado
+
+---
+
+## 📋 Funcionalidades
+
+| Página | Rota | Operação |
+|---|---|---|
+| Início | `/` | Listar todos os filmes |
+| Ver Filme | `/filme/:id` | Visualizar detalhes de um filme |
+| Novo Filme | `/criar` | Cadastrar um filme |
+| Editar Filme | `/editar/:id` | Atualizar dados de um filme |
+| Apagar Filme | `/apagar/:id` | Excluir um filme |
+
+### Dados armazenados por filme:
+- `id` — gerado automaticamente pela API
+- `nome` — String
+- `genero` — String
+- `ano` — String
+
+---
+
+## ⚙️ Como rodar
 
 ### 1. Instalar dependências
 ```bash
@@ -40,7 +66,10 @@ Edite `src/services/api.js` e substitua a URL na constante `BASE_URL`.
 npm start
 ```
 
-## Estrutura do projeto
+---
+
+## 🗂️ Estrutura do projeto
+
 ```
 src/
 ├── components/
@@ -57,7 +86,10 @@ src/
 └── index.css            ← Estilos globais
 ```
 
-## Rotas
+---
+
+## 🔗 Rotas
+
 | Rota | Página | Operação |
 |------|--------|----------|
 | `/` | Início | Listar filmes (READ all) |
@@ -65,3 +97,11 @@ src/
 | `/criar` | Criar Filme | Adicionar (CREATE) |
 | `/editar/:id` | Editar Filme | Atualizar (UPDATE) |
 | `/apagar/:id` | Apagar Filme | Excluir (DELETE) |
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Stephanie Marys**  
+IFSP — Instituto Federal de Educação, Ciência e Tecnologia de São Paulo  
+Campus São Carlos
