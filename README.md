@@ -1,4 +1,4 @@
-# 🎬 CineLog — Catálogo de Filmes
+# 🎬 Cine Beth — Catálogo de Filmes
 
 Aplicação web desenvolvida em React para gerenciamento de um catálogo de filmes, com operações completas de **CRUD** (Create, Read, Update, Delete).
 
