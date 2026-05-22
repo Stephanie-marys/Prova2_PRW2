@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <NavLink to="/" className="navbar-brand">
-        CINE<span>LOG</span>
+        CINE<span>BETH</span>
       </NavLink>
       <div className="navbar-links">
         <NavLink
