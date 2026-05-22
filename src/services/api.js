@@ -1,8 +1,7 @@
 import axios from 'axios';
 
-// Troque pela URL do seu MockAPI ou outro servidor
-// Exemplo MockAPI: https://XXXXXXXX.mockapi.io/filmes
-const BASE_URL = process.env.REACT_APP_API_URL || 'https://seu-projeto.mockapi.io/filmes';
+
+const BASE_URL = process.env.REACT_APP_API_URL || 'https://6a09b54ee7e3f433d4835a4e.mockapi.io/:endpoint';
 
 const api = axios.create({
   baseURL: BASE_URL,
