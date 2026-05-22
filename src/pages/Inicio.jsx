@@ -55,12 +55,6 @@ export default function Inicio() {
 
   return (
     <main className="main-content">
-      <div className="config-notice">
-        <strong>⚙️ Configuração:</strong> Edite a URL da API em{' '}
-        <code>src/services/api.js</code> ou defina a variável de ambiente{' '}
-        <code>REACT_APP_API_URL</code> com a URL do seu MockAPI.
-      </div>
-
       <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
         <div>
           <h1 className="page-title">CATÁLOGO <span>DE FILMES</span></h1>
